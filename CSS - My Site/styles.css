@@ -1,0 +1,155 @@
+body {
+    color: #40514E;
+    text-align: center;
+    /*the text align centers all the element which does not have a width set to it*/
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+hr{
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    margin: 100px auto 100px;
+
+    width: 5%;
+
+}
+
+p{
+    line-height: 2;
+}
+
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem ; /*a hundred percent or 1em font size is equal to 16px, and therefore for a 90px size we wd need 562.5%*/
+    /*now its a dynamic size*/
+    /*if we had a font size mentioned over in the parent in a dynamic form, then this font size of the child element gets inherited and multiplied to give the result*/
+    font-family: 'Sacramento', cursive;
+    /*width : 10%;
+    /*if a block element has a width set then we have to center it using the auto margin*/
+    /* margin: 0 auto; /*this means that the top and bottom are set two zero and the left right are set to auto*/
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif
+}
+
+.inline{
+    text-decoration: underline;
+}
+
+#top-container {
+
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mountain{
+    height: 380px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row{
+    margin: 100px auto;
+    width : 50%;
+    text-align: left;
+
+}
+
+.pp{
+    width:15%;
+}
+
+.s1{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.s2{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+
+  a{
+    color:#0f777a;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #EAF6F6;
+  }
+
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
